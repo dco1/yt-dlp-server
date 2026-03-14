@@ -1,0 +1,21 @@
+{
+  "name": "yt-dlp-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "server": {
+     "name": "YT-DLP",
+     "port": 9000, 
+  } 
+}
